@@ -11,9 +11,11 @@ setup(
     author="AJ",
     author_email="aj.tools.repo@gmail.com",
     description="This public library simulates user activity to prevent session inactivity, ensuring that processes requiring continuous active user sessions remain operational.",
-    url="https://github.com/yourusername/anti_afk_lib",
+    url="https://github.com/aj-tools-repo/anti-afk",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
     ],
+    python_requires='>=3.6',
 )
