@@ -1,0 +1,25 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment directories
+.env
+.venv
+env/
+venv/
+
+# IDE/editor directories (optional)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
