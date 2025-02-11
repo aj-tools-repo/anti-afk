@@ -30,7 +30,7 @@ pip install anti-afk-lib
 
 ## Example
 
-Below is the simple example to call the module for 10 minutes (run_duration: Run for 10 minutes).
+Below is the simple example to call the module for 10 minutes (run_duration: 10 minutes).
 
 ```bash
 from anti_afk.anti_afk import AntiAFK
