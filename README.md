@@ -9,6 +9,23 @@
 - **Customizable Duration & Interval:** Specify how long and how frequently the simulation should run.
 - **Interruptible Execution:** The simulation stops immediately if the ESC key is pressed.
 
+## Installation
+
+You can install **anti-afk** from PyPI using pip:
+
+```bash
+pip install anti-afk
+```
+
+## Example
+
+Below is the simple example to call the module for 10 minutes (run_duration: Run for 10 minutes).
+
+```bash
+from anti_afk import AntiAFK
+AntiAFK(run_duration=10).run()
+```
+
 ## Dependencies
 
 This project depends on the following Python packages:
@@ -19,21 +36,4 @@ This project depends on the following Python packages:
 You can install these dependencies using pip. If you have a virtual environment set up, activate it first, then run:
 ```bash
 pip install -r requirements.txt
-```
-
-## Installation
-
-You can install **anti-afk** from PyPI using pip:
-
-```bash
-pip install anti-afk
-```
-
-## Example
-Below is the simple example to call the module.
-
-```bash
-from anti_afk import AntiAFK
-# - run_duration: Run for 10 minutes
-AntiAFK(run_duration=10).run()
 ```

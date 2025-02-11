@@ -2,15 +2,16 @@ from setuptools import setup, find_packages
 
 setup(
     name="anti_afk_lib",
-    version="0.1.0",
+    version="0.1.4",
     packages=find_packages(),
     install_requires=[
         "pyautogui",
         "keyboard",
     ],
     author="AJ",
-    author_email="aj.tools.repo@gmail.com",
+    author_email="aj.tools.007@gmail.com",
     description="This public library simulates user activity to prevent session inactivity, ensuring that processes requiring continuous active user sessions remain operational.",
+    long_description=open("README.md", encoding="utf-8").read(),
     url="https://github.com/aj-tools-repo/anti-afk",
     classifiers=[
         "Programming Language :: Python :: 3",
