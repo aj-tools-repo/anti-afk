@@ -1,6 +1,17 @@
 # anti-afk
 
-**anti-afk** is a Python library that simulates user activity to prevent your system from being marked as AFK (Away From Keyboard). It works by periodically moving the mouse and optionally simulating a key press (default: Shift). This is especially useful for keeping your status active in applications like Microsoft Teams, Zoom, or any other environment that detects inactivity.
+Introducing a Python library **anti-afk**, designed to simulate user activity, ensuring that your system remains active and does not enter an idle state (AFK). The library periodically moves the mouse pointer and can optionally simulate a key press (defaulting to the Shift key). This functionality delivers several professional benefits:
+
+**Enhanced Session Stability:**
+Prevents unwanted session terminations in environments such as VPN connections, remote desktop sessions, and remote debugging, thereby reducing the risk of losing unsaved work.
+
+**Operational Continuity:**
+Maintains active sessions across various remote and cloud-based platforms, ensuring that time-sensitive workflows are not disrupted by automatic timeouts or logouts.
+
+**Improved Multi-Tasking Efficiency:**
+Supports scenarios where multiple customer sessions or tasks are managed concurrently, enabling uninterrupted work streams and more efficient resource allocation.
+
+By keeping your system’s status active, this library helps safeguard against connectivity disruptions and session timeouts, contributing to a more resilient and productive operational environment.
 
 ## Features
 
