@@ -14,7 +14,7 @@
 You can install **anti-afk** from PyPI using pip:
 
 ```bash
-pip install anti-afk
+pip install anti-afk-lib
 ```
 
 ## Example
@@ -22,7 +22,7 @@ pip install anti-afk
 Below is the simple example to call the module for 10 minutes (run_duration: Run for 10 minutes).
 
 ```bash
-from anti_afk import AntiAFK
+from anti_afk.anti_afk import AntiAFK
 AntiAFK(run_duration=10).run()
 ```
 
