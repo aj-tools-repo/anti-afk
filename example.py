@@ -1,4 +1,4 @@
-from anti_afk import AntiAFK
+from anti_afk_lib.anti_afk import AntiAFK
 
 def main():
     # Create an instance of AntiAFK with example parameters:
